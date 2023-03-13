@@ -1,6 +1,6 @@
 import { Telegraf, Context } from 'telegraf';
 import { telegrafThrottler } from 'telegraf-throttler';
-import config from './config';
+import config from './config.example';
 import axios from 'axios';
 import fs from 'fs/promises';
 import path from 'path';
